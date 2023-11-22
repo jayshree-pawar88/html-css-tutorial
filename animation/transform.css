@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 90px;
+    background-image:linear-gradient(red,orange);
+}
+section{
+    width: 100%;
+    height: auto;
+    background-image: radial-gradient(orange, red,yellow);
+}
+section h1{
+    text-align: center;
+}
+.container{
+    margin: 50px 0 50px 0;
+}
+.translate{
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    transform: translate(20px,50px);
+}
+.rotate{
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    transform:rotate(40deg);
+}
+.scale{
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    transform:scale(2,1);
+}
+.scalex{
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    transform:scalex(2);
+}
+.scaley{
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    transform:scaley(0.5);
+}
+.skew{
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    transform:skew(20deg);
+}
+.skewx{
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    transform:skew(40deg);
+}
